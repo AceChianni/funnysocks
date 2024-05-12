@@ -1,0 +1,104 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Set all fonts to sans-serif */
+}
+
+/* Apply global styles */
+body {
+  background-color: #f8f8f8; /* Set a light background color for the body */
+}
+
+header {
+  background-color: #ff69b4; /* Dark pink background for the header */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Target the product container */
+.product {
+  background-color: #d4af37;
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items vertically */
+}
+
+/* Target the product image */
+.product img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  background-color: #d4af37; /* Mustard yellow background */
+  padding: 10px;
+  /* size */
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Style the product details */
+.product h3,
+.product p,
+.product button {
+  display: block;
+  text-align: center;
+  margin-bottom: 10px;
+}
+/* Style the product details */
+.product-details {
+  flex-grow: 1; /* Allow details to expand to fill remaining space */
+}
+
+.product h3,
+.product p {
+  margin: 0; /* Remove default margin for headings and paragraphs */
+}
+/* Style the Add to Cart button */
+.product button {
+  background-color: #4caf50; /* Green button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+.product button:hover {
+  background-color: #7cb342; /* Light green on hover */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: black;
+  color: white; /* White text color for footer */
+}
+
+/* Add a line to separate sections */
+section {
+  padding: 20px; /* Add padding inside each section */
+  border-bottom: 1px solid #ccc; /* Horizontal line to separate sections */
+}
+
+/* Remove border from last section to avoid extra line at the bottom */
+section:last-child {
+  border-bottom: none;
+}
